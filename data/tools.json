@@ -1,0 +1,242 @@
+{
+  "keyword": "creatomate alternative",
+  "title": "Best Creatomate Alternatives That Generate and Assemble Video (2026)",
+  "lastChecked": "2026-09-13",
+  "capabilityChecks": [
+    {
+      "key": "aiGeneration",
+      "label": "AI generation"
+    },
+    {
+      "key": "timelineAssembly",
+      "label": "Timeline assembly"
+    },
+    {
+      "key": "publicApi",
+      "label": "Public API"
+    },
+    {
+      "key": "webhooks",
+      "label": "Webhooks"
+    },
+    {
+      "key": "perNodeCostVisibility",
+      "label": "Per-node cost visibility"
+    },
+    {
+      "key": "batchFanOut",
+      "label": "Batch fan-out"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best Overall",
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs/mcp",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
+      "restApi": true,
+      "modelSupport": "Multi-model catalog across image, video and audio nodes",
+      "freeTier": "yes",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "In Claude Desktop or claude.ai, add the same URL as a custom connector. Read-only tools (`list_workflows`, `list_models`, `get_execution`) cost nothing; `run_workflow` is the only one that spends credits.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/api/mcp"
+        }
+      ],
+      "capabilities": {
+        "aiGeneration": true,
+        "timelineAssembly": true,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": true,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Creatomate",
+      "tagline": ": template-driven video and image render API for developers and no-code users",
+      "homepage": "https://creatomate.com",
+      "docs": "https://creatomate.com/docs/api/introduction",
+      "pricing": "https://creatomate.com/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Template-driven rendering; generative models are not the product",
+      "freeTier": "unverified",
+      "repo": "creatomate/creatomate-node",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Official Node client, install command copied verbatim from its README:",
+          "lang": "bash",
+          "code": "npm install creatomate"
+        }
+      ],
+      "capabilities": {
+        "aiGeneration": false,
+        "timelineAssembly": true,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": false,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": 9,
+        "lastPush": "2024-09-23T09:46:26Z",
+        "latestRelease": "1.2.1",
+        "latestReleaseDate": "2024-09-23",
+        "checkedAt": "2026-09-13"
+      }
+    },
+    {
+      "n": 3,
+      "name": "Shotstack",
+      "tagline": ": JSON-based video editing API with a white-label editor SDK",
+      "homepage": "https://shotstack.io",
+      "docs": "https://shotstack.io/docs/guide/",
+      "pricing": "https://shotstack.io/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "JSON-described edits rendered in the cloud; generative nodes are secondary",
+      "freeTier": "unverified",
+      "repo": "shotstack/shotstack-sdk-node",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Official SDKs, install commands copied verbatim from their READMEs:",
+          "lang": "bash",
+          "code": "npm install shotstack-sdk   # https://github.com/shotstack/shotstack-sdk-node\npip install shotstack-sdk   # https://github.com/shotstack/shotstack-sdk-python"
+        }
+      ],
+      "capabilities": {
+        "aiGeneration": null,
+        "timelineAssembly": true,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": false,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": 37,
+        "lastPush": "2026-09-03T09:01:15Z",
+        "latestRelease": "v0.2.9",
+        "latestReleaseDate": "2024-07-30",
+        "checkedAt": "2026-09-13"
+      }
+    },
+    {
+      "n": 4,
+      "name": "JSON2Video",
+      "tagline": ": JSON-to-MP4 render API with built-in text-to-speech",
+      "homepage": "https://json2video.com",
+      "docs": "https://json2video.com/docs/v2/",
+      "pricing": "https://json2video.com/pricing/",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Template rendering from a JSON movie description",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "JSON2Video publishes official PHP and Node SDKs in its docs, but on 2026-09-01 neither SDK page exposed a verbatim install command or a GitHub path we could confirm, so none is reproduced here.",
+      "quickstart": null,
+      "capabilities": {
+        "aiGeneration": null,
+        "timelineAssembly": true,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": false,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Plainly",
+      "tagline": ": After Effects template rendering as a hosted service",
+      "homepage": "https://www.plainlyvideos.com",
+      "docs": "https://www.plainlyvideos.com/documentation/api-reference",
+      "pricing": "https://www.plainlyvideos.com/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "After Effects project rendering, not generative models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Plainly advertises a 14-day free trial on its homepage, which is a trial rather than a free tier.",
+      "quickstart": null,
+      "capabilities": {
+        "aiGeneration": false,
+        "timelineAssembly": true,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": false,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Bannerbear",
+      "tagline": ": image-first creative automation API with basic video output",
+      "homepage": "https://www.bannerbear.com",
+      "docs": "https://developers.bannerbear.com/",
+      "pricing": "https://www.bannerbear.com/pricing/",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Template-driven image and short-video rendering",
+      "freeTier": "unverified",
+      "repo": "yongfook/bannerbear-node",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Official clients, install commands copied verbatim from Bannerbear’s API reference:",
+          "lang": "bash",
+          "code": "npm install bannerbear      # https://github.com/yongfook/bannerbear-node\npip install bannerbear      # https://github.com/yongfook/bannerbear-python\ngem install bannerbear      # https://github.com/yongfook/bannerbear-ruby"
+        }
+      ],
+      "capabilities": {
+        "aiGeneration": false,
+        "timelineAssembly": null,
+        "publicApi": true,
+        "webhooks": true,
+        "perNodeCostVisibility": false,
+        "batchFanOut": true
+      },
+      "live": {
+        "stars": 17,
+        "lastPush": "2026-08-17T05:52:31Z",
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": "2026-09-13"
+      }
+    }
+  ]
+}
