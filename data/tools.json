@@ -1,7 +1,7 @@
 {
   "keyword": "creatomate alternative",
   "title": "Best Creatomate Alternatives That Generate and Assemble Video (2026)",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "aiGeneration",
@@ -54,6 +54,8 @@
           "code": "https://www.wireflow.ai/api/mcp"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/features/ai-video-workflow",
+      "moneyPageLabel": "Wireflow AI video workflow page",
       "capabilities": {
         "aiGeneration": true,
         "timelineAssembly": true,
@@ -73,7 +75,7 @@
     {
       "n": 2,
       "name": "Creatomate",
-      "tagline": ": template-driven video and image render API for developers and no-code users",
+      "tagline": "template-driven video and image render API for developers and no-code users",
       "homepage": "https://creatomate.com",
       "docs": "https://creatomate.com/docs/api/introduction",
       "pricing": "https://creatomate.com/pricing",
@@ -103,13 +105,13 @@
         "lastPush": "2024-09-23T09:46:26Z",
         "latestRelease": "1.2.1",
         "latestReleaseDate": "2024-09-23",
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     },
     {
       "n": 3,
       "name": "Shotstack",
-      "tagline": ": JSON-based video editing API with a white-label editor SDK",
+      "tagline": "JSON-based video editing API with a white-label editor SDK",
       "homepage": "https://shotstack.io",
       "docs": "https://shotstack.io/docs/guide/",
       "pricing": "https://shotstack.io/pricing",
@@ -139,13 +141,13 @@
         "lastPush": "2026-10-04T05:27:22Z",
         "latestRelease": "v0.2.9",
         "latestReleaseDate": "2024-07-30",
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     },
     {
       "n": 4,
       "name": "JSON2Video",
-      "tagline": ": JSON-to-MP4 render API with built-in text-to-speech",
+      "tagline": "JSON-to-MP4 render API with built-in text-to-speech",
       "homepage": "https://json2video.com",
       "docs": "https://json2video.com/docs/v2/",
       "pricing": "https://json2video.com/pricing/",
@@ -175,7 +177,7 @@
     {
       "n": 5,
       "name": "Plainly",
-      "tagline": ": After Effects template rendering as a hosted service",
+      "tagline": "After Effects template rendering as a hosted service",
       "homepage": "https://www.plainlyvideos.com",
       "docs": "https://www.plainlyvideos.com/documentation/api-reference",
       "pricing": "https://www.plainlyvideos.com/pricing",
@@ -205,7 +207,7 @@
     {
       "n": 6,
       "name": "Bannerbear",
-      "tagline": ": image-first creative automation API with basic video output",
+      "tagline": "image-first creative automation API with basic video output",
       "homepage": "https://www.bannerbear.com",
       "docs": "https://developers.bannerbear.com/",
       "pricing": "https://www.bannerbear.com/pricing/",
@@ -235,7 +237,7 @@
         "lastPush": "2026-08-17T05:52:31Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     }
   ]

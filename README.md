@@ -4,13 +4,20 @@
 
 A maintained dataset of **creatomate alternative** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/ai-workflow-api)**: Best Overall · node canvas that generates media and assembles it through one REST API
+2. **Creatomate**: template-driven video and image render API for developers and no-code users
+3. **Shotstack**: JSON-based video editing API with a white-label editor SDK
+4. **JSON2Video**: JSON-to-MP4 render API with built-in text-to-speech
+5. **Plainly**: After Effects template rendering as a hosted service
+6. **Bannerbear**: image-first creative automation API with basic video output
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -36,27 +43,27 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[Creatomate](#2-creatomate)** | No first-party MCP server documented | Yes | [check](https://creatomate.com/pricing) | Template-driven rendering; generative models are not the product | [pricing](https://creatomate.com/pricing) | [creatomate/creatomate-node](https://github.com/creatomate/creatomate-node) — 9 ★, 1.2.1 |
-| **[Shotstack](#3-shotstack)** | No first-party MCP server documented | Yes | [check](https://shotstack.io/pricing) | JSON-described edits rendered in the cloud; generative nodes are secondary | [pricing](https://shotstack.io/pricing) | [shotstack/shotstack-sdk-node](https://github.com/shotstack/shotstack-sdk-node) — 37 ★, v0.2.9 |
-| **[JSON2Video](#4-json2video)** | No first-party MCP server documented | Yes | [check](https://json2video.com/pricing/) | Template rendering from a JSON movie description | [pricing](https://json2video.com/pricing/) | — |
-| **[Plainly](#5-plainly)** | No first-party MCP server documented | Yes | [check](https://www.plainlyvideos.com/pricing) | After Effects project rendering, not generative models | [pricing](https://www.plainlyvideos.com/pricing) | — |
-| **[Bannerbear](#6-bannerbear)** | No first-party MCP server documented | Yes | [check](https://www.bannerbear.com/pricing/) | Template-driven image and short-video rendering | [pricing](https://www.bannerbear.com/pricing/) | [yongfook/bannerbear-node](https://github.com/yongfook/bannerbear-node) — 17 ★, pushed 2026-08-17 |
+| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[Creatomate](#2-creatomate)** | No first-party MCP server documented | Yes | [check](https://creatomate.com/pricing) | Template-driven rendering; generative models are not the product | [pricing](https://creatomate.com/pricing) | [creatomate/creatomate-node](https://github.com/creatomate/creatomate-node), 9 ★, 1.2.1 |
+| **[Shotstack](#3-shotstack)** | No first-party MCP server documented | Yes | [check](https://shotstack.io/pricing) | JSON-described edits rendered in the cloud; generative nodes are secondary | [pricing](https://shotstack.io/pricing) | [shotstack/shotstack-sdk-node](https://github.com/shotstack/shotstack-sdk-node), 37 ★, v0.2.9 |
+| **[JSON2Video](#4-json2video)** | No first-party MCP server documented | Yes | [check](https://json2video.com/pricing/) | Template rendering from a JSON movie description | [pricing](https://json2video.com/pricing/) | n/a |
+| **[Plainly](#5-plainly)** | No first-party MCP server documented | Yes | [check](https://www.plainlyvideos.com/pricing) | After Effects project rendering, not generative models | [pricing](https://www.plainlyvideos.com/pricing) | n/a |
+| **[Bannerbear](#6-bannerbear)** | No first-party MCP server documented | Yes | [check](https://www.bannerbear.com/pricing/) | Template-driven image and short-video rendering | [pricing](https://www.bannerbear.com/pricing/) | [yongfook/bannerbear-node](https://github.com/yongfook/bannerbear-node), 17 ★, pushed 2026-08-17 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | AI generation | Timeline assembly | Public API | Webhooks | Per-node cost visibility | Batch fan-out | Score |
 |------|---|---|---|---|---|---|-------|
 | **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **6/6** |
 | **[Creatomate](#2-creatomate)** | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
-| **[Shotstack](#3-shotstack)** | — | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
-| **[JSON2Video](#4-json2video)** | — | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
+| **[Shotstack](#3-shotstack)** | n/a | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
+| **[JSON2Video](#4-json2video)** | n/a | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
 | **[Plainly](#5-plainly)** | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | **4/6** |
-| **[Bannerbear](#6-bannerbear)** | ❌ | — | ✅ | ✅ | ❌ | ✅ | **3/6** |
+| **[Bannerbear](#6-bannerbear)** | ❌ | n/a | ✅ | ✅ | ❌ | ✅ | **3/6** |
 <!-- CAPABILITY-SCORES:END -->
 
 ## The tools
@@ -72,10 +79,10 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
 - **Standout:** generation nodes and a real video editor on one canvas, both reachable by API
 - **Links:**
   - [Homepage](https://www.wireflow.ai)
+  - [Wireflow AI video workflow page](https://www.wireflow.ai/features/ai-video-workflow)
   - [Docs](https://www.wireflow.ai/docs/mcp)
   - [Pricing](https://www.wireflow.ai/pricing)
   - [Wireflow](https://www.wireflow.ai/ai-workflow-api)
-  - [Wireflow](https://www.wireflow.ai/ai-content-generation-api)
   - [batch image generation API](https://www.wireflow.ai/batch-image-generation-api)
   - [Wireflow's video assembly API](https://www.wireflow.ai/features/video-assembly-api)
 
@@ -90,7 +97,7 @@ https://www.wireflow.ai/api/mcp
 
 ### 2. Creatomate
 
-*: template-driven video and image render API for developers and no-code users*
+*template-driven video and image render API for developers and no-code users*
 
 ![Creatomate](https://assets.wireflow.ai/linkedin/creatomate-alternatives-generate-assemble/screenshot-creatomate.png?v=r5)
 
@@ -109,7 +116,7 @@ npm install creatomate
 
 ### 3. Shotstack
 
-*: JSON-based video editing API with a white-label editor SDK*
+*JSON-based video editing API with a white-label editor SDK*
 
 ![Shotstack](https://assets.wireflow.ai/linkedin/creatomate-alternatives-generate-assemble/screenshot-shotstack.png?v=r5)
 
@@ -120,7 +127,6 @@ npm install creatomate
   - [Docs](https://shotstack.io/docs/guide/)
   - [Pricing](https://shotstack.io/pricing)
   - [shotstack/shotstack-sdk-node](https://github.com/shotstack/shotstack-sdk-node)
-  - [Creatomate versus Shotstack comparison](https://www.wireflow.ai/blog/creatomate-vs-shotstack)
 
 Official SDKs, install commands copied verbatim from their READMEs:
 ```bash
@@ -130,7 +136,7 @@ pip install shotstack-sdk   # https://github.com/shotstack/shotstack-sdk-python
 
 ### 4. JSON2Video
 
-*: JSON-to-MP4 render API with built-in text-to-speech*
+*JSON-to-MP4 render API with built-in text-to-speech*
 
 ![JSON2Video](https://assets.wireflow.ai/linkedin/creatomate-alternatives-generate-assemble/screenshot-json2video.png?v=r5)
 
@@ -141,13 +147,12 @@ pip install shotstack-sdk   # https://github.com/shotstack/shotstack-sdk-python
   - [Homepage](https://json2video.com)
   - [Docs](https://json2video.com/docs/v2/)
   - [Pricing](https://json2video.com/pricing/)
-  - [JSON2Video alternative with model nodes](https://www.wireflow.ai/features/json2video-alternative)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://json2video.com/docs/v2/).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://json2video.com/docs/v2/).
 
 ### 5. Plainly
 
-*: After Effects template rendering as a hosted service*
+*After Effects template rendering as a hosted service*
 
 ![Plainly](https://assets.wireflow.ai/linkedin/creatomate-alternatives-generate-assemble/screenshot-plainly.png?v=r5)
 
@@ -158,13 +163,12 @@ pip install shotstack-sdk   # https://github.com/shotstack/shotstack-sdk-python
   - [Homepage](https://www.plainlyvideos.com)
   - [Docs](https://www.plainlyvideos.com/documentation/api-reference)
   - [Pricing](https://www.plainlyvideos.com/pricing)
-  - [Plainly alternative that generates the footage](https://www.wireflow.ai/features/plainly-videos-alternative)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://www.plainlyvideos.com/documentation/api-reference).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://www.plainlyvideos.com/documentation/api-reference).
 
 ### 6. Bannerbear
 
-*: image-first creative automation API with basic video output*
+*image-first creative automation API with basic video output*
 
 ![Bannerbear](https://assets.wireflow.ai/linkedin/creatomate-alternatives-generate-assemble/screenshot-bannerbear.png?v=r5)
 
@@ -242,7 +246,7 @@ As of 2026 the honest summary is that the template render API is a solved catego
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -253,7 +257,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 
