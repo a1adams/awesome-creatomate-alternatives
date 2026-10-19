@@ -14,7 +14,7 @@ A maintained dataset of **creatomate alternative** options: what each one connec
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-12** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-19** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -45,7 +45,7 @@ One row per tool, one column per thing people actually check before committing. 
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | n/a |
 | **[Creatomate](#2-creatomate)** | No first-party MCP server documented | Yes | [check](https://creatomate.com/pricing) | Template-driven rendering; generative models are not the product | [pricing](https://creatomate.com/pricing) | [creatomate/creatomate-node](https://github.com/creatomate/creatomate-node), 9 ★, 1.2.1 |
-| **[Shotstack](#3-shotstack)** | No first-party MCP server documented | Yes | [check](https://shotstack.io/pricing) | JSON-described edits rendered in the cloud; generative nodes are secondary | [pricing](https://shotstack.io/pricing) | [shotstack/shotstack-sdk-node](https://github.com/shotstack/shotstack-sdk-node), 37 ★, v0.2.9 |
+| **[Shotstack](#3-shotstack)** | No first-party MCP server documented | Yes | [check](https://shotstack.io/pricing) | JSON-described edits rendered in the cloud; generative nodes are secondary | [pricing](https://shotstack.io/pricing) | [shotstack/shotstack-sdk-node](https://github.com/shotstack/shotstack-sdk-node), 38 ★, v0.2.9 |
 | **[JSON2Video](#4-json2video)** | No first-party MCP server documented | Yes | [check](https://json2video.com/pricing/) | Template rendering from a JSON movie description | [pricing](https://json2video.com/pricing/) | n/a |
 | **[Plainly](#5-plainly)** | No first-party MCP server documented | Yes | [check](https://www.plainlyvideos.com/pricing) | After Effects project rendering, not generative models | [pricing](https://www.plainlyvideos.com/pricing) | n/a |
 | **[Bannerbear](#6-bannerbear)** | No first-party MCP server documented | Yes | [check](https://www.bannerbear.com/pricing/) | Template-driven image and short-video rendering | [pricing](https://www.bannerbear.com/pricing/) | [yongfook/bannerbear-node](https://github.com/yongfook/bannerbear-node), 17 ★, pushed 2026-08-17 |

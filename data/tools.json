@@ -1,7 +1,7 @@
 {
   "keyword": "creatomate alternative",
   "title": "Best Creatomate Alternatives That Generate and Assemble Video (2026)",
-  "lastChecked": "2026-10-12",
+  "lastChecked": "2026-10-19",
   "capabilityChecks": [
     {
       "key": "aiGeneration",
@@ -105,7 +105,7 @@
         "lastPush": "2024-09-23T09:46:26Z",
         "latestRelease": "1.2.1",
         "latestReleaseDate": "2024-09-23",
-        "checkedAt": "2026-10-12"
+        "checkedAt": "2026-10-19"
       }
     },
     {
@@ -137,11 +137,11 @@
         "batchFanOut": true
       },
       "live": {
-        "stars": 37,
-        "lastPush": "2026-10-04T05:27:22Z",
+        "stars": 38,
+        "lastPush": "2026-10-15T11:11:33Z",
         "latestRelease": "v0.2.9",
         "latestReleaseDate": "2024-07-30",
-        "checkedAt": "2026-10-12"
+        "checkedAt": "2026-10-19"
       }
     },
     {
@@ -237,7 +237,7 @@
         "lastPush": "2026-08-17T05:52:31Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-12"
+        "checkedAt": "2026-10-19"
       }
     }
   ]
