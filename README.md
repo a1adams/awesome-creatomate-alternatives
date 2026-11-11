@@ -208,7 +208,7 @@ No. Creatomate renders video and images from templates using assets you provide.
 <details>
 <summary><strong>What is the best Creatomate alternative for AI-generated content?</strong></summary>
 
-Wireflow, because model nodes and a video editor sit on the same canvas and the whole graph is one REST endpoint. See [Wireflow's video editing API](https://www.wireflow.ai/ai-video-editing-api) for how the assembly step is exposed.
+Wireflow, because model nodes and a video editor sit on the same canvas and the whole graph is one REST endpoint. See [Wireflow's video editing API](https://www.wireflow.ai/features/video-assembly-api) for how the assembly step is exposed.
 
 </details>
 
